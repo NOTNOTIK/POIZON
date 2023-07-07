@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    background-image: url(../../images/LOGOPOIZON\ [problembo.com].jfif);
+    background-size: cover;
+    background-position: 50% 25%;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+  }
+  

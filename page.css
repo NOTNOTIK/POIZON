@@ -1,0 +1,20 @@
+@import url(./vendor/normalize.css);
+@import url(./block/about/about.css);
+@import url(./block/carousel/carousel.css);
+@import url(./block/header/header.css);
+@import url(./block/intro/intro.css);
+@import url(./block/menu/menu.css);
+@import url(./block/vologda/vologda.css);
+@import url(./fonts/Architectural.css);
+@import url(./fonts/fonts.css);
+@import url(./fonts/Epilson.css);
+@import url(./block/order/order.css);
+body {
+  background: rgb(0, 0, 0);
+  background-size: 400%;
+  height: 100vh;
+  animation: gradient 7s infinite linear;
+}
+html {
+  scroll-behavior: smooth;
+}

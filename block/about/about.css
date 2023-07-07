@@ -1,0 +1,29 @@
+.about {
+    color: white;
+    margin: 0px 10px 0px 10px;
+    
+  }
+  
+  .about__title {
+    text-align: center;
+    font-family: "Architectural", serif, sans-serif;
+    font-weight: 600;
+    font-size: 77px;
+    margin: 0;
+  }
+  
+  
+  .about__text{
+    font-family: "Architectural", serif, sans-serif;                        
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    .about__text{
+      width: 100%;
+      font-size: 30px;
+    }
+  }

@@ -1,0 +1,40 @@
+.carousel__container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  .container__image{
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s;
+  }
+  .carousel {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 100px;
+  }
+   
+  .carousel-inner {
+    display: flex;
+    width: 300%;
+    overflow: hidden;
+    animation: slider 3s linear infinite;
+  }
+  @keyframes slider{
+    0% {
+       transform: translate(0, 0); 
+  }
+  100% {
+      transform: translate(-500px, 0);
+  }
+  } 
+  
+  
+  .carousel-item {
+    width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+  }
