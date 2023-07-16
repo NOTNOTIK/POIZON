@@ -19,15 +19,15 @@
 }
 .vologda__title{
     text-align: center;
-    font-family: "Architectural", serif, sans-serif;
+    font-family: "Montserrat", serif, sans-serif;     
     font-weight: 600;
-    font-size: 55px;
+    font-size: 45px;
     margin: 0;
 }
 .vologda__text{
     text-align: right;
-    font-family: "Architectural", serif, sans-serif;              
-    font-size: 40px;
+    font-family: "Montserrat", serif, sans-serif;                  
+    font-size: 30px;
     width: 80%;
     color: white;
     margin: 0 auto;

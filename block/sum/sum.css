@@ -1,0 +1,63 @@
+.sum{
+    margin-top: 100px;
+}
+.sum__container{
+display: flex;
+flex-direction: column;
+gap: 75px;
+}
+.sum__box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.sum__title{
+    text-align: center;
+    font-family: "Montserrat", serif, sans-serif;
+    font-weight: 600;
+    font-size: 57px;
+    margin: 0 auto;
+    color: white;
+    width: 650px;
+    margin-bottom: 100px;
+}
+.sum__text{
+    color: white;
+    font-size: 35px;
+    font-family: "Montserrat", serif, sans-serif;     
+    text-align: center;
+    width: 50%;
+    margin: 0;
+}
+@media screen and (max-width:1024px) {
+    .sum__title{
+        width: 100%;
+        font-size: 40px;
+    }
+    .sum__box{
+        flex-direction: column;
+    }
+    .sum__text{
+        width: 90%;
+        font-size: 30px;
+    }
+}
+.sum__point{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.sum__point:hover{
+    background-color: white;
+}
+.sum__num{
+    margin: 0 auto;
+    font-family: "Montserrat", serif, sans-serif;     
+    font-size: 150px;
+    
+}
